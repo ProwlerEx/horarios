@@ -1,73 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="img/craneo (1).svg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Info</title>
 </head>
 <body>
     
 
     <section>
-<nav>
-    <ul>
-        <li><a href="">Inicio</a></li>
-        <li><a href="#ds">Devil Square</a></li>
-        <li><a href="#inv">Invasión de Dorados</a></li>
-    </ul>
-
-</nav>
+        
 
     </section>
     <img src="img/craneo.svg" alt="" class="img-ex">
-    <div class="title" id="ds" >Devil Square</div>
+    <h1>Devil Square</h1>
 
 <div class="devil">
-    <table>
-        <tr>
-            <th>Etapa</th>
-            <th>Nivel Minimo</th>
-            <th>Nivel Maximo</th>
-        </tr>
-        <tr>
-            <th>1</th>
-            <th>10</th>
-            <th>99</th>
-        </tr>
-        <tr>
-            <th>2</th>
-            <th>100</th>
-            <th>179</th>
-        </tr>
-        <tr>
-            <th>3</th>
-            <th>180</th>
-            <th>249</th>
-        </tr>
-        <tr>
-            <th>4</th>
-            <th>250</th>
-            <th>350</th>
-        </tr>
-    </table>
-    <div class="title">Horarios</div>
+ 
+    <h3>Horarios</h3>
     <div class="ds-horarios">
-        <table>
-            <tr>
-                <th>10:55</th>
-                <th>08:55</th>
-                <th>08:55</th>
-                <th>08:55</th>
-                <th>08:55</th>
-                <th>08:55</th>
-                <th>08:55</th>
-                <th>08:55</th>
-
-            </tr>
-        </table>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Etapa</th>
+                <th scope="col">Nivel Minimo</th>
+                <th scope="col">Nivel Maximo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>10</td>
+                <td>99</td>        
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>100</td>
+                <td>179</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>180</td>
+                <td>249</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>250</td>
+                <td>350</td>
+              </tr>
+            </tbody>
+          </table>
     </div>
 </div>
 <br>
@@ -78,28 +68,58 @@
 <svg xmlns="http://www.w3.org/2000/svg"  class="wave" viewBox="0 0 1430 320"><path fill="#ffd700" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,96C384,139,480,213,576,240C672,267,768,245,864,234.7C960,224,1056,224,1152,229.3C1248,235,1344,245,1392,250.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 -->
 <section class="inv">
-    <img src="img/fantasia.svg" class="img-ex" alt="" id="inv">
-    <div class="title" >INVASIÓN DE DORADOS</div>
-    <br><br><br>
-    <table>
-        
-        <hr class="new1">
-        <tr>
-            <th>01:30 HS</th>
-            <th>05:30 HS</th>
-            <th>09:30 HS</th>
-            <th>13:30 HS</th>
-            <th>17:30 HS</th>
-            <th>21:30 HS</th>
-            
-        </tr>
-        
-    </table>
-    <hr class="new1">
+  
+    <h1>INVASIÓN DE DORADOS</h1>
+    <img src="dragon.png" class="img-ex" alt="" id="inv">
+    <br>
+   
+    <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Horarios</th>
+            <th scope="col">Horarios</th>
+            <th scope="col">Horarios</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>00:30</td>
+            <td>00:30</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>04:30</td>
+            <td>04:30</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>08:30</td>
+            <td>08:30</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>12:30</td>
+            <td>12:30</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>16:30</td>
+            <td>16:30</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>20:30</td>
+            <td>20:30</td>
+          </tr>
+        </tbody>
+      </table>
+    
     <br><br><br><br>
 </section>
 <section class="dragon">
-<div class="title">Dragones</div>
+<h1>INVASIÓN DE DORADOS</h1>
+<img src="img/fantasia.svg" alt="" class="img-ex">
 </section>
 
 <footer>
