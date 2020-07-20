@@ -50,6 +50,7 @@ table table-hover table-dark
     background: #eccc17a9;  
     width: 100%;
     height: 90vh;
+    
 }
 
 
@@ -64,7 +65,7 @@ table table-hover table-dark
 
 .img-ex
 {
-    width: 150px;
+    width: 250px;
     display: block;
     margin: auto;
     padding: 20px;
@@ -103,6 +104,11 @@ footer h1
     {
         background: #eccc17a9;  
         width: 100%;
-        height: 140vh;
+        height: 170vh;
+        
+    }
+    .dragon
+    {
+        height: 120vh;
     }
 }

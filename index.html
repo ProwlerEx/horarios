@@ -14,8 +14,32 @@
     <title>Info</title>
 </head>
 <body>
-    
+    <!--
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Horarios</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
 
+        <li class="nav-item">
+          <a class="nav-link" href="#inv">INVASIÓN DE DORADOS</a>
+        </li>
+
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Devil Square
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#ds-hora">Horarios</a>
+          <a class="dropdown-item" href="#ds-req">Requisitos</a>
+      </li>
+      
+      </ul>
+      
+    </div>
+  </nav>
+  -->
     <section>
         
 
@@ -24,12 +48,86 @@
     <h1>Devil Square</h1>
 
 <div class="devil">
- 
-    <h3>Horarios</h3>
+ <div id="ds-hora">
+    <h3 >Horarios</h3>
+    <table class="table table-striped">
+      <thead>
+        <tr class="table-danger">
+          <th scope="col">#</th>
+          <th scope="col">Hora de Inicio</th>
+          <th scope="col">Hora de Finalización</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-warning">
+          <th scope="row">1</th>
+          <td>00:55</td>
+          <td>01:20</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>02:55</td>
+          <td>03:20</td>
+        </tr>
+        <tr class="table-warning">
+          <th scope="row">3</th>
+          <td>04:55</td>
+          <td>05:20</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>06:55</td>
+          <td>07:20</td>
+        </tr>
+        <tr class="table-warning">
+          <th scope="row">5</th>
+          <td>08:55</td>
+          <td>09:20</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>10:55</td>
+          <td>11:20</td>
+        </tr>
+        <tr class="table-warning">
+          <th scope="row">7</th>
+          <td>12:55</td>
+          <td>13:20</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>14:55</td>
+          <td>15:20</td>
+        </tr>
+        <tr class="table-warning">
+          <th scope="row">9</th>
+          <td>16:55</td>
+          <td>17:20</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>18:55</td>
+          <td>19:20</td>
+        </tr>
+        <tr class="table-warning">
+          <th scope="row">11</th>
+          <td>20:55</td>
+          <td>21:20</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td>22:55</td>
+          <td>23:20</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+    <br id="ds-req"><br>
+    <h3 >Requisitos</h3>
     <div class="ds-horarios">
         <table class="table">
             <thead>
-              <tr>
+              <tr class="table-danger">
                 <th scope="col">Etapa</th>
                 <th scope="col">Nivel Minimo</th>
                 <th scope="col">Nivel Maximo</th>
@@ -70,14 +168,14 @@
 <section class="inv">
   
     <h1>INVASIÓN DE DORADOS</h1>
-    <img src="dragon.png" class="img-ex" alt="" id="inv">
+    <img src="img/dorado1.png" class="img-ex" alt="" id="inv">
     <br>
    
-    <table class="table table-hover table-dark">
+    <div class="devil">
+      <table class="table table-hover">
         <thead>
           <tr>
-            <th scope="col">Horarios</th>
-            <th scope="col">Horarios</th>
+            <th scope="col">#</th>
             <th scope="col">Horarios</th>
           </tr>
         </thead>
@@ -85,40 +183,34 @@
           <tr>
             <th scope="row">1</th>
             <td>00:30</td>
-            <td>00:30</td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>04:30</td>
             <td>04:30</td>
           </tr>
           <tr>
             <th scope="row">3</th>
             <td>08:30</td>
-            <td>08:30</td>
           </tr>
           <tr>
-            <th scope="row">5</th>
-            <td>12:30</td>
+            <th scope="row">4</th>
             <td>12:30</td>
           </tr>
           <tr>
             <th scope="row">5</th>
-            <td>16:30</td>
             <td>16:30</td>
           </tr>
           <tr>
             <th scope="row">6</th>
             <td>20:30</td>
-            <td>20:30</td>
           </tr>
         </tbody>
       </table>
-    
+    </div>
     <br><br><br><br>
 </section>
 <section class="dragon">
-<h1>INVASIÓN DE DORADOS</h1>
+<h1>INVASIÓN DE DRAGONES ROJOS</h1>
 <img src="img/fantasia.svg" alt="" class="img-ex">
 </section>
 
